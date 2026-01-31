@@ -18,3 +18,7 @@ Models perform very well on clean benchmarks like CIFAR-10, but their performanc
 drops when small, realistic changes are occurred, such as noise or blur image in CIFAR-10-C.
 This shows that standard evaluation methods do not reveal when models depend on shorcuts, 
 and they can give false sense of reliability for real world use.
+
+Predictions(Expected Failure):-
+I expect the model's accuracy to drop a lot when noise or blur is added to the images. Even when the predictions are wrong, the madel may still be very confident about its answers. Becauese the benchmark only checks accuracy on clean images, it will not give any warning that the model is unreliable in real-worls conditions.
+
