@@ -22,3 +22,10 @@ robustness under realistic conditions. The model appears to depend on fragile
 surface level features that break when noise is introduced. Because CIFAR-10
 evaluation does not test such conditions, it fails to reveal this weakness and
 gives a false sense of reliability
+
+#RESULT TABLE :
+
+| Model               | CIFAR-10 Acc | CIFAR-10-C Acc |
+| ------------------- | ------------ | -------------- |
+| ResNet-18           | 46.67%       | 10.0%          |
+
