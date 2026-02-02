@@ -49,9 +49,13 @@ Clean benchmark accuracy alone provides a misleading sense of real-world reliabi
 📁 Repository Structure
 
 evaluation-blindness/
+
 ├── experiments/
-│   ├── CIFAR-10.py        # CIFAR-10 training
-│   └── CIFAR-10-C.py     # CIFAR-10-C evaluation
+
+│   ├── CIFAR-10.py 
+# CIFAR-10 training
+│   └── CIFAR-10-C.py 
+# CIFAR-10-C evaluation
 ├── notes/
 │   ├── notes_day1.md            # Problem understanding
 │   ├── notes_day2.md            # Baseline training observations
